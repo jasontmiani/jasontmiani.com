@@ -1,5 +1,7 @@
 # Gatsby Theme Carbon Starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e43aa619-0f00-4461-86d4-5d803e175f80/deploy-status)](https://app.netlify.com/sites/jasontmiani/deploys)
+
 ## What is this?
 
 > Gatsby has implemented a new feature called [themes](https://www.gatsbyjs.org/docs/themes/). Themes encapsulate all of the configuration and implementation details of Gatsby websites. This is a starter-kit (boilerplate) that has a dependancy on the `gatsby-theme-carbon` package. It includes some sample content in the `src/pages` directory.
