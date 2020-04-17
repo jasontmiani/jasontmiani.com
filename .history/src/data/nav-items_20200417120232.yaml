@@ -1,6 +1,18 @@
-- title: Instagram
+- title: Getting started
   pages:
-    - path: /instagram
+    - path: /getting-started
+- title: Demo
+  pages:
+    - path: /demo
+- title: Gallery
+  pages:
+    - path: /gallery
+- title: Contributions
+  pages:
+    - path: /contributions
+- title: Contributions
+  pages:
+    - path: /contributions
 - title: Guides
   pages:
     - title: Configuration

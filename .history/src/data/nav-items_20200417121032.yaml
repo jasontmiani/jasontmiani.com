@@ -1,3 +1,9 @@
+- title: Gallery
+  pages:
+    - path: /gallery
+- title: Contributions
+  pages:
+    - path: /contributions
 - title: Instagram
   pages:
     - path: /instagram
