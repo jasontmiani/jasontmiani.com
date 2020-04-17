@@ -1,7 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import ImageGallery from "../../../node_modules/gatsby-theme-carbon/src/components/ImageGallery";
 import ImageGalleryImage from "../../../node_modules/gatsby-theme-carbon/src/components/ImageGallery/ImageGalleryImage";
+import {
+	Grid,
+	Row,
+	Col,
+} from "../../../node_modules/gatsby-theme-carbon/src/components/Grid";
 
 const CreateTestQuery = () => {
 	const data = useEffect(
