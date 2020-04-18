@@ -4,7 +4,7 @@ import ImageGallery from "../../../node_modules/gatsby-theme-carbon/src/componen
 import ImageGalleryImage from "../../../node_modules/gatsby-theme-carbon/src/components/ImageGallery/ImageGalleryImage";
 
 const CreateTestQuery = () => {
-	const data = useStaticQuery(graphql`
+	const outpdatut = useStaticQuery(graphql`
 		{
 			allInstaNode(sort: { fields: timestamp, order: DESC }) {
 				edges {
