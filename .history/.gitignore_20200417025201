@@ -70,9 +70,3 @@ yarn-error.log
 
 # functions
 src/functions
-
-.cache
-
-node_modules
-
-.env.development

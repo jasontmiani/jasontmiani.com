@@ -73,6 +73,3 @@ src/functions
 
 .cache
 
-node_modules
-
-.env.development

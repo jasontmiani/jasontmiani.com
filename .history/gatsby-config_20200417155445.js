@@ -1,10 +1,6 @@
 const activeEnv = process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV;
 
-console.log(`Using environment config: ${activeEnv}`);
-
-require("dotenv").config({
-	path: `.env.${activeEnv}`,
-});
+console.log(`Using environment config: ${}`)
 
 module.exports = {
 	siteMetadata: {
