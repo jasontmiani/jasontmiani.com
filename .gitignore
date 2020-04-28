@@ -74,3 +74,5 @@ src/functions
 node_modules
 .env.development
 .history
+# Local Netlify folder
+.netlify
