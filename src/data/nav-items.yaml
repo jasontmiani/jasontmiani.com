@@ -4,3 +4,6 @@
 - title: Contact
   pages:
     - path: /contact
+- title: About
+  pages:
+    - path: /about
