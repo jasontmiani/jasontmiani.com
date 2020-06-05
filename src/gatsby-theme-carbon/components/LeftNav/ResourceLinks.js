@@ -1,5 +1,6 @@
 import React from "react";
-import ResourceLinks from "gatsby-theme-carbon/src/components/LeftNav/ResourceLinks";
+
+import ResourceLinks from "gatsby-theme-carbon/src/components/LeftNav";
 
 const links = [
 	{

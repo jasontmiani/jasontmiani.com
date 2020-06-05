@@ -7,3 +7,6 @@
 - title: About
   pages:
     - path: /about
+- title: Oculus
+  pages:
+    - path: /oculus

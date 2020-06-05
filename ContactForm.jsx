@@ -1,10 +1,9 @@
-import React from "react";
+/* import React from "react";
 import { useForm } from "react-hook-form";
 import {
 	Form,
 	TextInput,
-	Button,
-	InlineNotification,
+	Button
 } from "carbon-components-react";
 
 function ContactForm() {
@@ -37,7 +36,7 @@ function ContactForm() {
 					id='text-input-3'
 					placeholder='Email'
 					name='emailAddress'
-					ref={register({ required: true, pattern: /^\S+@\S+$/i })}
+					ref={register({ required: true, pattern: "/^+@+$/i" })}
 				/>
 
 				<TextInput
@@ -55,4 +54,4 @@ function ContactForm() {
 	);
 }
 
-export default ContactForm;
+ */
