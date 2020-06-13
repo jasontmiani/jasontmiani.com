@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import ImageGallery from "../../../node_modules/gatsby-theme-carbon/src/components/ImageGallery";
-import ImageGalleryImage from "../../../node_modules/gatsby-theme-carbon/src/components/ImageGallery/ImageGalleryImage";
+import ImageGallery from "gatsby-theme-carbon/src/components/ImageGallery";
+import ImageGalleryImage from "gatsby-theme-carbon/src/components/ImageGallery/ImageGalleryImage";
 
 const CreateTestQuery = () => {
 	const data = useStaticQuery(graphql`

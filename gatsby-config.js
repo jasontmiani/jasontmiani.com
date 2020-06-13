@@ -13,7 +13,8 @@ module.exports = {
 		keywords: "kalzad,jason miani, miani",
 	},
 	pathPrefix: `/gtc`,
-	plugins: [
+plugins: [
+	/*
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
@@ -24,7 +25,7 @@ module.exports = {
 				theme_color: "#0062ff",
 				display: "browser",
 			},
-		},
+		}, */
 		{
 			resolve: "gatsby-theme-carbon",
 			options: {
