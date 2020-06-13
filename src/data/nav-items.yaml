@@ -4,9 +4,9 @@
 - title: Contact
   pages:
     - path: /contact
-- title: About
+- title: about
   pages:
     - path: /about
-- title: Oculus
+- title: oculus
   pages:
     - path: /oculus

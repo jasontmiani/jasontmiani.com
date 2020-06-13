@@ -4,7 +4,7 @@ import {
 	TextInput,
 	Button
 } from "carbon-components-react";
-import axios from 'axios'
+import axios from 'axios';
 
 
 function ContactForm() {
@@ -35,7 +35,7 @@ function ContactForm() {
 
 	return (
 		<div>
-			<Form onSubmit={onSubmit} name="contact" netlify netlify-honeypot="bot-field" hidden>
+			<Form onSubmit={onSubmit} className="contact" netlify netlify-honeypot="bot-field" hidden>
 				<TextInput
 					id='text-input-1'
 					placeholder={contactData.firstName}
@@ -70,4 +70,3 @@ function ContactForm() {
 	);
 }
 
-export default ContactForm;
