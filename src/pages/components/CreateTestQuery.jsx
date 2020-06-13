@@ -6,7 +6,7 @@ import ImageGalleryImage from "../../../node_modules/gatsby-theme-carbon/src/com
 const CreateTestQuery = () => {
 	const data = useStaticQuery(graphql`
 		{
-			allInstaNode(sort: { fields: timestamp, order: DESC }) {
+			allInstaNode {
 				edges {
 					node {
 						id
