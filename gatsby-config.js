@@ -11,11 +11,11 @@ module.exports = {
 		title: "Jason Miani | Kalzad",
 		description: "My Personal Website",
 		keywords: "kalzad,jason miani, miani",
+		
 	},
 	pathPrefix: `/gtc`,
-plugins: [
-	/*
-		{
+	plugins: [
+		/* {
 			resolve: "gatsby-plugin-manifest",
 			options: {
 				name: "Jason Miani | Kalzad",
@@ -40,7 +40,11 @@ plugins: [
 			resolve: `gatsby-source-instagram`,
 			options: {
 				username: `jasontmiani`,
-			},
+				access_token: `EAAeMToZAuRzQBANZAmYfBUBcoR7zATeTlZAdQkDpDLMJuy8Tmf0irspSdJfDdKZBoskHEQdZB7XabmvpZCPpIYcAvwqLmmEQFCHdA69QLMZAhoHIohZAtWQqAYctLb3ILRO7YpmiNZBBZBsmX6nontP9WaNEu4fog0euoZD`,
+				instagram_id: `173129309502340`,
+				paginate: 100,
+				maxPosts: 1000,
+			  },
 		},
 	],
 };

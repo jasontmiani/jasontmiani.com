@@ -14,4 +14,3 @@ function kanyeTest() {
 	return kanyeRes;
 }
 
-kanyeTest();
