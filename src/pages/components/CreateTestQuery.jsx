@@ -29,11 +29,11 @@ const CreateTestQuery = () => {
 					<ImageGalleryImage
 						key={index}
 						title={node.caption}
-						alt={node.type}
+						alt={node.caption}
 						col={2}
 					>
 						<div>
-							<img src={node.original} alt={node.type} />
+							<img src={node.original} alt={node.caption} />
 						</div>
 					</ImageGalleryImage>
 				))}
