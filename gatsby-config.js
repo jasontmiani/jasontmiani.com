@@ -36,7 +36,7 @@ module.exports = {
 			},
 		},
 		{
-			resolve: `gatsby-source-instagram`,
+			resolve: `gatsby-source-instagram`, /*TODO: replace gatsby-source-instagram with graph.facebook.com api. */
 			options: {
 				username: "@jasontmiani",
 			},
