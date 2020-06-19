@@ -76,3 +76,5 @@ node_modules
 .history
 # Local Netlify folder
 .netlify
+src/pages/components/CreateTestQuery
+src/pages/components/useInstagram
