@@ -33,12 +33,5 @@ module.exports = {
 				},
 			},
 		},
-		{
-			resolve: `gatsby-source-instagram-all`,
-			options: {
-				access_token:`EAAeMToZAuRzQBALs141ll5zQBaoRWsLLAXpc18ldgkVOfn3sHHh3pH2CrOG1UjUVTrjJQQzZBBfoa64vuhwR01LeFGwsV9HOTPMiwkMx8pEKlEaSDtTOZARSVYrRSwZCAPB5YOQEQfyuCg1YeV3guUcIOe11aCSAAYJCZB5ZAcZAUEIjHQNPBE8XZA4MBZBWuRqZCTbfiD8hcZAi92X0zG8NEdgPkym5eqHfplLaZBNtRZBKSNAZDZD`
-
-			},
-		},
 	],
 };
