@@ -8,16 +8,15 @@ import {
 } from "carbon-components-react";
 
 function ContactForm() {
-	const { register, handleSubmit, errors } = useForm();
+	const { register, handleSubmit } = useForm();
 
 	const onSubmit = (data) => {
-		console.log(data);
+		
 	};
-
-	console.log(errors);
 
 	return (
 		<div>
+		{FormContext}
 			<Form onSubmit={handleSubmit(onSubmit)}>
 				<TextInput
 					id='text-input-1'

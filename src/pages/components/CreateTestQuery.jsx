@@ -42,4 +42,4 @@ const CreateTestQuery = () => {
 	);
 };
 
-export default CreateTestQuery;
+
