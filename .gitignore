@@ -76,3 +76,4 @@ src/functions
 .history
 # Local Netlify folder
 .netlify
+.testing/
