@@ -4,7 +4,6 @@ import {
 	Form,
 	TextInput,
 	Button,
-	InlineNotification,
 } from "carbon-components-react";
 
 function ContactForm() {
@@ -16,7 +15,6 @@ function ContactForm() {
 
 	return (
 		<div>
-		{FormContext}
 			<Form onSubmit={handleSubmit(onSubmit)}>
 				<TextInput
 					id='text-input-1'
