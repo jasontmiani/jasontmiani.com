@@ -6,7 +6,7 @@ const Content = ({ buildTime }) => (
 		<p>
 			Site recently updated: <code>{buildTime}</code>
 		</p>
-		<p>Copyright and Property of Kalzad | jasontmiani.com 2020</p>
+		<p>Copyright and Property of Kalzad | jasontmiani.com {buildTime.slice(buildTime.length - 4)}</p>
 	</>
 );
 

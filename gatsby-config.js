@@ -21,6 +21,7 @@ module.exports = {
 				background_color: "#282c34",
 				theme_color: "#0062ff",
 				display: "browser",
+				icon: './static/images/profile-pic.png'
 			},
 		},
 		{
@@ -31,6 +32,7 @@ module.exports = {
 						"https://github.com/carbon-design-system/gatsby-theme-carbon",
 					subDirectory: "/packages/example",
 				},
+				iconPath: './static/images/profile-pic.png'
 			},
 		},
 	],
