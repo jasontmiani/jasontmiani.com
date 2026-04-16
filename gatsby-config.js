@@ -21,6 +21,7 @@ module.exports = {
 				background_color: "#282c34",
 				theme_color: "#0062ff",
 				display: "browser",
+				icon: `src/images/profile-pic.svg`,
 			},
 		},
 		{
